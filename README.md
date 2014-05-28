@@ -1,6 +1,8 @@
 # slush-nodewebkit
 
-##### A simple scaffolding to build a node-webkit app
+#### A simple scaffolding to build a node-webkit app
+
+##### based on [Beto Muniz projetct](https://github.com/obetomuniz/slush-nodewebkit-express-nedb). Thanks you! ♥♥♥
 
 
 ## Dependencies
