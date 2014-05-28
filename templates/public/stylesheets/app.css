@@ -1,0 +1,18 @@
+.drag-window {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+.titlebar{
+  display: block;
+  width: 100%;
+  background-color: #babaca;
+  height: 30px;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+}

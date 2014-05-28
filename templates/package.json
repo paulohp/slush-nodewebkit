@@ -1,0 +1,29 @@
+{
+  "name": "<%= appName %>",
+  "version": "<%= appVersion %>",
+  "description": "<%= appDescription %>",
+  "main": "index.html",
+  "window": {
+    "title": "<%= appTitle %>",
+    "toolbar": <%= appToolbar %>,
+    "frame": <%= appFrame %>,
+    "resizable": <%= appResizable %>,
+    "position": "<%= appWindowPosition %>",
+    "width": <%= appWidth %>,
+    "height": <%= appHeight %>
+  },
+  "repository": {
+    "url": "<%= appRepository %>"
+  },
+  "author": {
+    "name": "<%= appAuthor %>",
+    "url": "<%= appEmail %>"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-shell": "^0.2.5"
+  }
+}
