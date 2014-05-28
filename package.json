@@ -1,26 +1,24 @@
 {
-  "name": "slush-nodewebkit-express-nedb",
-  "version": "0.1.7",
-  "description": "Generate a simple scaffolding to build a node-webkit app with Express and NeDB",
+  "name": "slush-nodewebkit",
+  "version": "0.0.1",
+  "description": "Generate a simple scaffolding to build a node-webkit app from scratch",
   "main": "sulshfile.js",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/obetomuniz/slush-nodewebkit-express-nedb"
+    "url": "https://github.com/paulohp/slush-nodewebkit"
   },
   "keywords": [
     "slushgenerator",
     "node",
-    "node-webkit",
-    "express",
-    "nedb"
+    "node-webkit"
   ],
-  "author": "Beto Muniz",
-  "license": "MIT",
+  "author": "Paulo Pires and Beto Muniz",
+  "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/obetomuniz/slush-nodewebkit-express-nedb/issues"
+    "url": "https://github.com/paulohp/slush-nodewebkit/issues"
   },
-  "homepage": "https://github.com/obetomuniz/slush-nodewebkit-express-nedb",
+  "homepage": "https://github.com/paulohp/slush-nodewebkit",
   "dependencies": {
     "gulp": "^3.6.2",
     "gulp-conflict": "^0.1.1",
