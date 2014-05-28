@@ -1,6 +1,6 @@
 {
   "name": "slush-nodewebkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate a simple scaffolding to build a node-webkit app from scratch",
   "main": "sulshfile.js",
   "preferGlobal": true,

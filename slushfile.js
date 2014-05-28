@@ -27,23 +27,23 @@ gulp.task('default', function(done) {
     var prompts = [{
         name: 'appName',
         message: 'What the name of project?',
-        default: 'nodewebkit-express-nedb'
+        default: 'nodewebkit.app'
     }, {
         name: 'appVersion',
         message: 'What the version?',
-        default: '0.1.0'
+        default: '0.0.1'
     }, {
         name: 'appDescription',
         message: 'What the description?',
-        default: 'A simple scaffolding to build a node-webkit app with Express and NeDB'
+        default: 'A simple scaffolding to build a node-webkit app from scratch'
     }, {
         name: 'appTitle',
         message: 'What the Window Title?',
-        default: 'nodewebkit-express-nedb'
+        default: 'My New nodewebkit project'
     }, {
         name: 'appResizable',
         message: 'Window Resizable?',
-        default: false
+        default: true
     }, {
         name: 'appFrame',
         message: 'Add Window Frame?',
@@ -86,10 +86,9 @@ gulp.task('default', function(done) {
             }
 
             answers.appToolbar = isTrue(answers.appToolbar);
-            console.log(answers.appToolbar);
             answers.appFrame = isTrue(answers.appFrame);
             answers.appResizable = isTrue(answers.appResizable);
-            answers.appNameSlug = _.slugify(answers.appName)
+            answers.appName = _.slugify(answers.appName)
             answers.appAuthorSlug = _.slugify(answers.appAuthor)
             gulp.src(__dirname + '/templates/**')
                 .pipe(template(answers))
