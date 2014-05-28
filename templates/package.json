@@ -20,7 +20,7 @@
     "url": "<%= appEmail %>"
   },
   "dependencies": {
-
+    "node-webkit-builder": "*"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
