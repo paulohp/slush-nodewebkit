@@ -9,24 +9,42 @@
 
 You need install [gulp](http://gulpjs.com/) and [slush](http://slushjs.github.io/#/) previously to run this generator.
 
+## Preparation
+
+1) Tell nodejs that your global `node_modules` are in your home folder ( a place you have write access without sudo )
+
+```
+echo "prefix = /home/USERNAME/.npm/" >> ~/.npmrc
+```
+
+2) Update `$PATH` in your `~/.bash_profile` to reflect this new situation
+
+```
+NPM_PACKAGES="~/.npm/"
+NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+PATH="$NPM_PACKAGES/bin:$PATH"
+unset MANPATH
+MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+```
+
 ## Installation
 
 1) To install gulp globally, use:
 
 ```
-$ sudo npm install -g gulp
+$ npm install -g gulp
 ```
 
 2) To install slush globally, use:
 
 ```
-$ sudo npm install -g slush
+$ npm install -g slush
 ```
 
 3) Finally, install the generator:
 
 ```
-$ sudo npm install -g slush-nodewebkit
+$ npm install -g slush-nodewebkit
 ```
 
 ## Usage
@@ -34,7 +52,7 @@ $ sudo npm install -g slush-nodewebkit
 To run the generator, use:
 
 ```
-$ sudo slush nodewebkit
+$ slush nodewebkit
 ```
 
 ## Extra
@@ -43,31 +61,31 @@ This generator have any tasks running with gulp:
 To run application in currenty platform, use:
 
 ```
-$ sudo gulp run
+$ gulp run
 ```
 
 To zip application, use: (Working in Linux and OSX)
 
 ```
-$ sudo gulp zip
+$ gulp zip
 ```
 
 To compile application for Windows:
 
 ```
-$ sudo gulp win
+$ gulp win
 ```
 
 To compile application for OSX:
 
 ```
-$ sudo gulp osx
+$ gulp osx
 ```
 
 To compile application for Linux:
 
 ```
-$ sudo gulp linux
+$ gulp linux
 ```
 
 
