@@ -14,7 +14,7 @@
     "node-webkit"
   ],
   "author": "Paulo Pires and Beto Muniz",
-  "license": "WTFPL",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/paulohp/slush-nodewebkit/issues"
   },
