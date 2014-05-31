@@ -5,7 +5,7 @@
   "main": "index.html",
   "window": {
     "title": "<%= appTitle %>",
-    "toolbar": <%= appToolbar %>,
+    "toolbar": true,
     "frame": <%= appFrame %>,
     "resizable": <%= appResizable %>,
     "position": "<%= appWindowPosition %>",
