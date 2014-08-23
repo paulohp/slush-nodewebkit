@@ -1,5 +1,5 @@
 # slush-nodewebkit
-![image](http://media.giphy.com/media/oQyCNNtVfQrrq/giphy.gif =64x)
+![image](http://media.giphy.com/media/oQyCNNtVfQrrq/giphy.gif)
 #### A simple scaffolding to build a node-webkit app
 
 ##### based on [Beto Muniz projetct](https://github.com/obetomuniz/slush-nodewebkit-express-nedb). Thanks you! ♥♥♥
