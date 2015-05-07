@@ -12,23 +12,23 @@ You need install [gulp](http://gulpjs.com/) and [slush](http://slushjs.github.io
 
 ## Installation
 
-1) To install gulp globally, use:
+1. To install gulp globally, use:
 
-```
-$ npm install -g gulp
-```
+  ```
+  $ npm install -g gulp
+  ```
 
-2) To install slush globally, use:
+2. To install slush globally, use:
 
-```
-$ npm install -g slush
-```
+  ```
+  $ npm install -g slush
+  ```
 
-3) Finally, install the generator:
+3. Finally, install the generator:
 
-```
-$ npm install -g slush-nodewebkit
-```
+  ```
+  $ npm install -g slush-nodewebkit
+  ```
 
 ## Usage
 
