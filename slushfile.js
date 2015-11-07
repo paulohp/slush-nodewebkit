@@ -76,7 +76,12 @@ gulp.task('default', function(done) {
         name: 'appEmail',
         message: 'Author e-mail?',
         default: 'youremail@website.com'
-    }];
+    },
+   	   {
+		   name: 'appLicense',
+		   message: 'License?',
+		   default: 'ISC'
+	}];
 
     //Ask
     inquirer.prompt(prompts,
