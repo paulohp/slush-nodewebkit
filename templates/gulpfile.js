@@ -10,8 +10,8 @@ gulp.task('zip', shell.task([
 gulp.task('compile', function () {
  
     var nw = new NwBuilder({
-        files: ['./**'],
-        platforms: ['win32', 'win64', 'osx64', 'linux32', 'linux64'],
+        files: ['./*'],
+        platforms: ['win32', 'osx64', 'linux32', 'linux64'],
 		version: 'v0.12.0'
     });
  
@@ -28,5 +28,5 @@ gulp.task('default', ['compile']);
 
 // Run project
 gulp.task('run', shell.task([
-  './node_modules/nw/bin/nw . --debug'
+  'npm run run'
 ]));
