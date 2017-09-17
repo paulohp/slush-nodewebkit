@@ -53,26 +53,11 @@ To zip application, use: (Working in Linux and OSX)
 $ gulp zip
 ```
 
-To compile application for Windows:
+To compile application (Win, OSX, Linux):
 
 ```
-$ gulp win
+$ gulp win or $ gulp compile
 ```
-
-To compile application for OSX:
-
-```
-$ gulp osx
-```
-
-To compile application for Linux:
-
-```
-$ gulp linux
-```
-
-
-
 
 
 

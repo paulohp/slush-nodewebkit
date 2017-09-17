@@ -12,24 +12,23 @@
     "width": <%= appWidth %>,
     "height": <%= appHeight %>
   },
+  "scripts": {
+    "run": "node_modules/.bin/nw ./"
+  },
   "repository": {
     "url": "<%= appRepository %>"
-  },
-  "scripts": {
-    "run": "nwbuild --run ./",
-    "win": "nwbuild -p win ./",
-    "linux": "nwbuild -p linux32,linux64 ./",
-    "osx": "nwbuild -p osx ./"
   },
   "author": {
     "name": "<%= appAuthor %>",
     "url": "<%= appEmail %>"
   },
   "dependencies": {
-    "node-webkit-builder": "*"
+	"nw": "*"
   },
   "devDependencies": {
-    "gulp": "^3.6.2",
-    "gulp-shell": "^0.2.5"
-  }
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1",
+	  "nw-builder": "^2.0.2"
+  },
+  "license": "<%= appLicense %>"
 }
