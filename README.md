@@ -2,7 +2,7 @@
 ![image](http://media.giphy.com/media/oQyCNNtVfQrrq/giphy.gif)
 #### A simple scaffolding to build a node-webkit app
 
-##### based on [Beto Muniz projetct](https://github.com/obetomuniz/slush-nodewebkit-express-nedb). Thanks you! ♥♥♥
+##### based on [Beto Muniz's project](https://github.com/obetomuniz/slush-nodewebkit-express-nedb). Thank you! ♥♥♥
 
 
 ## Dependencies
